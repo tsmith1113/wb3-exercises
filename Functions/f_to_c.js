@@ -8,10 +8,6 @@ function convertFtoC(fahrenheit){
     return celsius;
 }
 
-let input = 80;
-let output = convertFtoC(input);
-console.log(output);
-
- input = 20;
- output = convertFtoC(input);
-console.log(output);
+let currentTemp = 90;
+let celsiusTemp = convertFtoC(currentTemp);
+console.log(celsiusTemp);
